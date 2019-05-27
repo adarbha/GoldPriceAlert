@@ -57,7 +57,7 @@ if __name__ == '__main__':
         if check_mcx(str(div)):
             price_to_return.add(return_price(str(div)))
 
-    price_to_alert = 32000
+    price_to_alert = 34000
 
     if list(price_to_return)[0] > price_to_alert:
         send_email(price_to_return)
